@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-image: url("image/1.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100%
+  }
+
+#container{
+    color: #5ba8ffd3;
+    
+}
+
+.digit{
+    font-size: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.txt{
+    font-size: 4vw;
+    font-family: 'VT323', monospace;
+    color: black;
+}
+#container-btn{
+    text-align: center;
+
+}
+
+.btn{
+    font-size: 2vw;
+    padding: 0.2em;
+    margin: 0.5em;
+    font-family: 'VT323', monospace;
+}
+
+#Start{
+    background-color: #488f78;
+}
+#Stop{
+    background-color: #004363;
+
+}
+
+#Restrat{
+    background-color: #ad4832;
+
+}
